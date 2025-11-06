@@ -1,0 +1,42 @@
+[
+  {
+    "file": "ShamanLink_PowerRail.raw",
+    "case": 0,
+    "vmin": -0.20129957795143127,
+    "vmax": 3.2987000942230225,
+    "vavg": 3.2987005710601807,
+    "overshoot_pct": -0.039391084150829134,
+    "recovery_ms": 0.0,
+    "ripple_pkpk": 0.06370019912719727,
+    "results": {
+      "DC Range": "PASS",
+      "Overshoot": "PASS",
+      "Recovery Time": "PASS",
+      "Ripple": "FAIL"
+    },
+    "ripple_window": [
+      0.03,
+      0.05
+    ]
+  },
+  {
+    "file": "ShamanLink_PowerRail.raw",
+    "case": 1,
+    "vmin": 3.259999990463257,
+    "vmax": 3.2992000579833984,
+    "vavg": 3.2991995811462402,
+    "overshoot_pct": -0.024240667169738935,
+    "recovery_ms": 0.0,
+    "ripple_pkpk": 0.0392000675201416,
+    "results": {
+      "DC Range": "PASS",
+      "Overshoot": "PASS",
+      "Recovery Time": "PASS",
+      "Ripple": "PASS"
+    },
+    "ripple_window": [
+      0.03,
+      0.05
+    ]
+  }
+]
