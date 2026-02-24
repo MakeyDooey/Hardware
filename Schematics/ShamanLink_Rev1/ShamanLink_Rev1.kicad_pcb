@@ -126,7 +126,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../Gerber/ShamanLinkGerber/")
+			(outputdirectory "../../../../MakeyDooeyLocal/ShamanLinkGerberV2/")
 		)
 	)
 	(net 0 "")

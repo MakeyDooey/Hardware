@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Gerber/ShamanLinkGerber/",
+      "plot": "../../../../MakeyDooeyLocal/ShamanLinkGerberV2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../MakeyDooeyLocal/ShamanLinkCAD/ShamanLink_Rev1.step",

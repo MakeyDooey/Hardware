@@ -1817,7 +1817,7 @@
 		)
 		(uuid "5a280fff-cdd4-48ee-8623-678e47402e03")
 	)
-	(text "In SWD mode, the PIO0_29 pin can act additionally as a \nSWO pin instead of UART in order to help program\nthe board. "
+	(text "In SWD mode, the UART pins can be used to print text to the\nconsole for debugging instead of using SWO which is not \nsupported in this implementation. SWO needs to be routed \nto PIO0_10 which was a pain in the butt"
 		(exclude_from_sim no)
 		(at 242.316 78.74 0)
 		(effects
@@ -1849,7 +1849,7 @@
 	)
 	(text "PIO0_30/29 are FC0 UART TX/RX respectivally.\nYou may wish to pull these high depending on application"
 		(exclude_from_sim no)
-		(at 242.316 73.152 0)
+		(at 242.316 72.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4480,10 +4480,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6abd5e9-c32e-4a77-bf94-e290c5f7a634")
+			(uuid "d6abd5e9-c32e-4a77-bf94-e290c5f7a635")
 		)
 		(pin "1"
-			(uuid "3e9e2527-a297-434c-ba61-3848a118dc23")
+			(uuid "3e9e2527-a297-434c-ba61-3848a118dc24")
 		)
 		(instances
 			(project ""
