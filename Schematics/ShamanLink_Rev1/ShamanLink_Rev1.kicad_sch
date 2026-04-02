@@ -4293,6 +4293,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This 0 R is due to a mistake where you \nhad a 0603 ferrite bead choking ground\nand potentially causing gnd bouce. Ideally\nthis is a regular connection and return path \nseperation is governed by spatial location \nrather than a ferrite bead. You already printed the PCBs\nand you did not change the footprints from the old bead"
+		(exclude_from_sim no)
+		(at 90.424 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a69b680-510e-4493-b219-12741b30c15a")
+	)
 	(junction
 		(at 115.57 73.66)
 		(diameter 0)
@@ -4576,6 +4586,12 @@
 		(uuid "e0e2c5a0-4879-4c76-bae8-8377047767c3")
 	)
 	(junction
+		(at 115.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4822e67-97a6-4999-b8ed-a4260f2cc507")
+	)
+	(junction
 		(at 68.58 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4592,12 +4608,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb726d54-8fcb-4c6c-a03e-c6998b121f66")
-	)
-	(junction
-		(at 115.57 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc4ab306-a4bd-4e95-8309-de8b716ca851")
 	)
 	(no_connect
 		(at 226.06 121.92)
@@ -4952,6 +4962,16 @@
 			(type default)
 		)
 		(uuid "264131f7-d3d4-4aee-941c-b0b97602f038")
+	)
+	(wire
+		(pts
+			(xy 115.57 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29619b16-661f-4e94-a9b1-ba3939b5697b")
 	)
 	(wire
 		(pts
@@ -5515,6 +5535,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6962ac0d-51e1-4b57-a3da-7748d8da7384")
+	)
+	(wire
+		(pts
 			(xy 86.36 86.36) (xy 86.36 87.63)
 		)
 		(stroke
@@ -5872,16 +5902,6 @@
 			(type default)
 		)
 		(uuid "92d7f0be-08e4-44f2-b8b5-ac50c9c20049")
-	)
-	(wire
-		(pts
-			(xy 115.57 85.09) (xy 118.11 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946a0852-e83d-4788-99b8-1abcd45d9222")
 	)
 	(wire
 		(pts
@@ -9918,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Value" "MFBW1V1608-601-R"
+		(property "Value" "HI0603P600R"
 			(at 78.232 73.152 90)
 			(effects
 				(font
@@ -10052,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Value" "MFBW1V1608-601-R"
+		(property "Value" "HI0603P600R"
 			(at 238.7219 138.43 90)
 			(effects
 				(font
@@ -10310,7 +10330,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85f0ff87-254a-40ae-b5a3-c2c31465bc6f")
 		(property "Reference" "C14"
 			(at 119.38 76.1999 0)
@@ -10322,7 +10341,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 119.38 78.7399 0)
+			(at 119.888 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 85.09 0)
+		(at 125.73 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10784,7 +10803,7 @@
 		(dnp no)
 		(uuid "aa4f35d5-069e-4d79-b804-8d77e0d571b9")
 		(property "Reference" "#PWR022"
-			(at 123.19 91.44 0)
+			(at 125.73 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +10812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 126.492 87.122 0)
+			(at 129.032 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +10820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 85.09 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +10829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 85.09 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +10838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 85.09 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,6 +11738,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 120.65 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9183941-42ac-4aae-b4c9-381198498b7d")
+		(property "Reference" "R39"
+			(at 120.396 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 120.65 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e39d117-65ff-4853-82ea-116521358f6c")
+		)
+		(pin "1"
+			(uuid "349cd03e-c06a-4063-8a88-f97fa136e77e")
+		)
+		(instances
+			(project ""
+				(path "/04556d6e-fcef-428e-bd2f-e6a401b90373"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 55.88 76.2 0)
 		(unit 1)
@@ -11979,73 +12065,6 @@
 			(project ""
 				(path "/04556d6e-fcef-428e-bd2f-e6a401b90373"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 120.65 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec869362-9839-49bd-971c-2ecd9e12e491")
-		(property "Reference" "FB5"
-			(at 119.126 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MFBW1V1608-601-R"
-			(at 120.396 89.916 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 120.65 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 120.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b54343e-2121-4cfc-b394-39c9ed9bdee1")
-		)
-		(pin "2"
-			(uuid "9acd4af2-8251-46dc-8985-fbb55f94d548")
-		)
-		(instances
-			(project "ShamanLink_Rev1"
-				(path "/04556d6e-fcef-428e-bd2f-e6a401b90373"
-					(reference "FB5")
 					(unit 1)
 				)
 			)

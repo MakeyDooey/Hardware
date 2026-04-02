@@ -1,4 +1,4 @@
-26486492648677608
+26495368259847079
 ADR4525BRZ
 R_8_ADI
 
@@ -59275,6 +59275,20 @@ Inductor_Sumida_CDRH2D11
 0
 2
 2
+CustomFootprints
+LM2596BuckBoost
+
+
+0
+4
+4
+CustomFootprints
+Untitled
+
+
+0
+0
+0
 DLW21SN900HQ2L
 IND_DLW21S_0805_MUR
 
@@ -59296,6 +59310,13 @@ DLW21SN900HQ2L
 0
 4
 4
+DRV8871
+DRV8871
+
+
+0
+10
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61319,6 +61340,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32S3DEVKIT1
+ESP32-S3-DEVKITC-1-N8R8
+
+
+0
+44
+44
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -98720,6 +98748,13 @@ Logo WEEE
 0
 0
 0
+TMC2209
+MODULE_TMC2209_SILENTSTEPSTICK
+
+
+0
+18
+18
 TPD6E001
 RSF12_2P1X2P1
 

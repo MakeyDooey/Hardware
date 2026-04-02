@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.3,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -199,7 +199,8 @@
         0.45,
         0.5,
         0.508,
-        0.762
+        0.762,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -487,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ShamanLink_Rev1.kicad_pro",
+    "filename": "MotorTotem_Rev1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,10 +524,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../MakeyDooeyLocal/ShamanLinkGerberV2/",
+      "plot": "../../../../../MakeyDooeyLocal/MotorTotemGerberV1/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Users/dommu/Downloads/ShamanLink_Board.step",
+      "step": "../../../../../Users/dommu/Downloads/MotorTotem_Rev1.step",
       "svg": "",
       "vrml": ""
     },
@@ -647,32 +648,20 @@
   },
   "sheets": [
     [
-      "04556d6e-fcef-428e-bd2f-e6a401b90373",
+      "744505bf-d941-4d81-a59a-5dfacff0a98c",
       "Root"
     ],
     [
-      "cd6fd89d-da06-467d-a814-65eafc98932a",
-      "Clocks"
+      "5f673648-65ca-4303-97ed-1c34de8039da",
+      "RS485"
     ],
     [
-      "b33642ff-ce41-4324-8bd3-2642197fd648",
-      "Power"
+      "055319e8-beb9-41b7-bed0-a0b26e543443",
+      "DC Motors"
     ],
     [
-      "8ee72022-5130-4cc3-9add-6a63615d1b38",
-      "MicroSD"
-    ],
-    [
-      "b229c64a-685e-40f6-bc9e-7952aee17509",
-      "RS485Transceiver"
-    ],
-    [
-      "2a10931e-ab9e-430d-9c6f-94fd024e343c",
-      "HeaderLEDs"
-    ],
-    [
-      "297800ec-8bcc-4970-9376-abf20109b0cb",
-      "MainTotemHeader"
+      "efd30ac5-b411-4763-9a75-392d405647b7",
+      "Stepper Motors"
     ]
   ],
   "text_variables": {}

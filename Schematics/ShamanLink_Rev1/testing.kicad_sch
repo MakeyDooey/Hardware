@@ -1807,6 +1807,16 @@
 		)
 		(uuid "04f4378a-94a9-411d-aac8-73d9dd3cbaa1")
 	)
+	(text "In the current ShamanLink prototype, these are all 330 ohm resistors"
+		(exclude_from_sim no)
+		(at 136.906 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0adb5aca-ab60-4ebb-92a5-1a7fc7f84102")
+	)
 	(text "To reset the device, short ProRESET to ground. "
 		(exclude_from_sim no)
 		(at 125.73 102.616 0)
