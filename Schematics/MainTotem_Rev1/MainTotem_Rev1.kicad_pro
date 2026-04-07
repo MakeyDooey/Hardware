@@ -634,8 +634,24 @@
       "RS485"
     ],
     [
-      "9289ed3b-55e6-4a21-a364-361765e0bbe9",
-      "LEDsGPIO"
+      "19d6abdf-8015-4fd4-afe9-8598d45d6109",
+      "Clock"
+    ],
+    [
+      "2e64514f-165d-4acf-ba3a-af0efce37140",
+      "QSPIMEM"
+    ],
+    [
+      "97057afa-7296-4be8-a665-e60332ed6693",
+      "ShamanLinkPower"
+    ],
+    [
+      "11b1d03f-480a-48c0-b3f5-bb8abd3eef6d",
+      "40P_CONN"
+    ],
+    [
+      "7514e2bf-e8c9-419c-a9b1-da8f08cf279a",
+      "100P_CONN"
     ]
   ],
   "text_variables": {}

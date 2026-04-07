@@ -1504,6 +1504,16 @@
 		)
 		(uuid "25cd0145-f96b-4790-aa44-ad4e0c12a95b")
 	)
+	(text "The DIAG pins are necessary if you wish to use\nthe StallGuard feedback from the TMC2209. To \nimplement this, use the pin that sticks off the top \nof the module and a jumper wire and connect to \nGPIO pins to sense input. I recommend and is currently \nimplemented on prototype: \nU5: GPIO_1\nU6: GPIO_2\nU7: GPIO_7"
+		(exclude_from_sim no)
+		(at 181.102 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61322a69-a31a-4900-a87a-125b63e98db6")
+	)
 	(junction
 		(at 80.01 53.34)
 		(diameter 0)

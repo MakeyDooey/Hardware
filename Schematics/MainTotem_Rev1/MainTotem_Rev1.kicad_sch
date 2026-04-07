@@ -430,6 +430,48 @@
 		)
 	)
 	(sheet
+		(at 151.13 111.76)
+		(size 16.51 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19d6abdf-8015-4fd4-afe9-8598d45d6109")
+		(property "Sheetname" "Clock"
+			(at 151.13 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 151.13 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MainTotem_Rev1"
+				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 151.13 85.09)
 		(size 16.51 6.35)
 		(exclude_from_sim no)
@@ -509,48 +551,6 @@
 			(project "MainTotem_Rev1"
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 151.13 72.39)
-		(size 16.51 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9289ed3b-55e6-4a21-a364-361765e0bbe9")
-		(property "Sheetname" "LEDsGPIO"
-			(at 151.13 71.6784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LEDsGPIO.kicad_sch"
-			(at 151.13 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MainTotem_Rev1"
-				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb"
-					(page "7")
 				)
 			)
 		)
