@@ -557,10 +557,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Gerber/MainTotemLiteGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/MainTotem_Rev1.step",
       "svg": "",
       "vrml": ""
     },
