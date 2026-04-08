@@ -5,469 +5,6 @@
 	(uuid "08909567-2bf2-427c-ad13-90beb349efd9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BAT54SW_115:BAT54SW_115"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -7.6502 11.2028 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BAT54SW_115"
-				(at -7.3762 -8.3916 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BAT54SW_115:SOT65P210X110-3N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Nexperia"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54SW_115_0_0"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 0) (xy -5.588 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 0) (xy -5.588 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 -1.27) (xy -3.048 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.778) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 1.778) (xy -3.048 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 1.778) (xy -2.286 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 0) (xy -5.588 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 0) (xy -3.048 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -1.778) (xy -3.81 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.778) (xy -2.286 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -3.048 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.032 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 4.572 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.778) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.778) (xy 4.572 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.778) (xy 5.334 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 4.572 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -1.778) (xy 3.81 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 1.778) (xy 5.334 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 4.572 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1869,24 +1406,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 17.78 5.08 180)
 					(length 5.08)
@@ -2650,156 +2169,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TotemBusMale:S6B-XH-A"
 			(pin_names
 				(offset 1.016)
@@ -3321,7 +2690,7 @@
 	)
 	(text "Configure these as Analog Mode pins to avoid unwated signal"
 		(exclude_from_sim no)
-		(at 145.288 70.104 0)
+		(at 142.494 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3338,16 +2707,6 @@
 			)
 		)
 		(uuid "eed645a2-626a-42d4-8a3b-6d2937219a18")
-	)
-	(text "I mean, this should be fine. The diode's forward voltage is about .32 V\nat the currents I am expecting. Therefore, if the G0 pulls to 0.1V LOW\nand the diode adds .32V, .42V must be less than .3Vdd for the NRST to \nregister VIL. If Vdd is 3.3V, this shouldn't be an issue I hope.  "
-		(exclude_from_sim no)
-		(at 209.296 65.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "effd8d80-55de-4f30-ab62-7269b9ecccc6")
 	)
 	(junction
 		(at 229.87 127)
@@ -3368,12 +2727,6 @@
 		(uuid "106ae967-40c3-4a13-a7b9-c2b381c22000")
 	)
 	(junction
-		(at 264.16 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21c78c2e-ea06-40e0-801a-6802ca5e1c44")
-	)
-	(junction
 		(at 228.6 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3384,12 +2737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45afd9a3-7793-4761-b48f-cc871061d67c")
-	)
-	(junction
-		(at 149.86 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "505b300b-a86e-41cf-8a7d-6ee0bb11f8a6")
 	)
 	(junction
 		(at 124.46 76.2)
@@ -3649,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 76.2) (xy 237.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8f2abb-6ac5-4fd7-8124-baf41b86dc73")
-	)
-	(wire
-		(pts
 			(xy 80.01 114.3) (xy 134.62 114.3)
 		)
 		(stroke
@@ -3686,16 +3023,6 @@
 			(type default)
 		)
 		(uuid "0fd5bf63-bde8-4d3e-be47-7f209becf96a")
-	)
-	(wire
-		(pts
-			(xy 260.35 66.04) (xy 264.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ddd3ef-fc36-4f15-ba4e-090a7eebbad9")
 	)
 	(wire
 		(pts
@@ -3799,16 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 144.78) (xy 149.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d717e0-9317-4b47-831a-a49217e0a540")
-	)
-	(wire
-		(pts
 			(xy 173.99 99.06) (xy 173.99 104.14)
 		)
 		(stroke
@@ -3816,6 +3133,16 @@
 			(type default)
 		)
 		(uuid "242b4b35-dad5-480a-a09b-6a3858784675")
+	)
+	(wire
+		(pts
+			(xy 237.49 50.8) (xy 237.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24439a10-d087-414f-a4cb-17f300559ab7")
 	)
 	(wire
 		(pts
@@ -3836,6 +3163,16 @@
 			(type default)
 		)
 		(uuid "25fc4c6c-5ecb-4f06-94da-c31b704c984f")
+	)
+	(wire
+		(pts
+			(xy 264.16 50.8) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2619a60b-b793-474a-b96a-94c988a53c56")
 	)
 	(wire
 		(pts
@@ -3896,36 +3233,6 @@
 			(type default)
 		)
 		(uuid "318a01c9-c372-4e1a-8f76-98726031fbd2")
-	)
-	(wire
-		(pts
-			(xy 275.59 73.66) (xy 275.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32672d6a-8eb6-420e-a2aa-1e0f30c2ca7e")
-	)
-	(wire
-		(pts
-			(xy 252.73 76.2) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35773c45-93f8-49c7-a390-114b1874050f")
-	)
-	(wire
-		(pts
-			(xy 264.16 66.04) (xy 265.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37beb3aa-d25b-4a51-a9e8-23a7ccaf0f9e")
 	)
 	(wire
 		(pts
@@ -4029,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 50.8) (xy 264.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "483e3b2a-5058-4141-b70a-f9f154966e25")
-	)
-	(wire
-		(pts
 			(xy 191.77 157.48) (xy 196.85 157.48)
 		)
 		(stroke
@@ -4129,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 191.77 157.48)
+			(xy 139.7 157.48) (xy 191.77 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4346,16 +3643,6 @@
 			(type default)
 		)
 		(uuid "a08623d8-3bf9-4753-a29b-0f1d1574b2ab")
-	)
-	(wire
-		(pts
-			(xy 139.7 157.48) (xy 149.86 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a361315f-1146-4ed5-9e28-bc0d093e7c19")
 	)
 	(wire
 		(pts
@@ -4707,16 +3994,6 @@
 		)
 		(uuid "ff6d9c02-2446-4b04-a095-f54726c63df2")
 	)
-	(wire
-		(pts
-			(xy 149.86 144.78) (xy 149.86 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffdcf7ec-e0d5-4164-b8ac-26d8aeb98d64")
-	)
 	(global_label "3V3PROGRAMMER"
 		(shape bidirectional)
 		(at 227.33 104.14 90)
@@ -4987,7 +4264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 111.76 0)
 			(effects
 				(font
@@ -5121,7 +4398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP-32"
+		(property "Footprint" "STM32G0:LQFP-32-M"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -5283,7 +4560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 202.8952 111.76 0)
 			(effects
 				(font
@@ -5418,7 +4695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.0752 88.9 0)
 			(effects
 				(font
@@ -5488,7 +4765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S6B-XH-A:JST_S6B-XH-A"
+		(property "Footprint" "JSTS6B-XH-A-1:JST_S6B-XH-A"
 			(at 262.89 157.48 0)
 			(effects
 				(font
@@ -5645,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -5871,7 +5148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 169.672 30.48 90)
 			(effects
 				(font
@@ -5941,7 +5218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.2952 111.76 0)
 			(effects
 				(font
@@ -6011,7 +5288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 141.732 110.49 90)
 			(effects
 				(font
@@ -6063,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5249425f-0d49-4ffd-9785-a92bd4a46eb5")
-		(property "Reference" "PROG"
+		(property "Reference" "PROG1"
 			(at 175.26 38.4174 90)
 			(effects
 				(font
@@ -6081,7 +5358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.45 38.1 0)
 			(effects
 				(font
@@ -6126,7 +5403,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
-					(reference "PROG")
+					(reference "PROG1")
 					(unit 1)
 				)
 			)
@@ -6208,7 +5485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f5803a-1ba4-44e6-8825-fbfeb09693ed")
-		(property "Reference" "UH_OH"
+		(property "Reference" "UH_OH1"
 			(at 147.32 38.4174 90)
 			(effects
 				(font
@@ -6226,7 +5503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.51 38.1 0)
 			(effects
 				(font
@@ -6271,7 +5548,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
-					(reference "UH_OH")
+					(reference "UH_OH1")
 					(unit 1)
 				)
 			)
@@ -6370,7 +5647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 148.59 90)
 			(effects
 				(font
@@ -6440,7 +5717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 157.48 38.1 0)
 			(effects
 				(font
@@ -6519,7 +5796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S6B-XH-A:JST_S6B-XH-A"
+		(property "Footprint" "JSTS6B-XH-A-1:JST_S6B-XH-A"
 			(at 262.89 138.43 0)
 			(effects
 				(font
@@ -6677,7 +5954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 155.702 30.48 90)
 			(effects
 				(font
@@ -6917,72 +6194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 275.59 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9443ca56-5024-40ab-a184-fc14016226bc")
-		(property "Reference" "#PWR0101"
-			(at 275.59 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 275.59 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03d85296-ee0c-4565-8610-bc3eb90dfe40")
-		)
-		(instances
-			(project "MainTotem_Rev1"
-				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 241.3 107.95 0)
 		(unit 1)
@@ -7010,7 +6221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 242.2652 111.76 0)
 			(effects
 				(font
@@ -7146,7 +6357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.4252 83.82 0)
 			(effects
 				(font
@@ -7551,7 +6762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.322 99.06 90)
 			(effects
 				(font
@@ -7594,74 +6805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 270.51 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc04cb31-69f0-4140-8092-3edd5eb7550a")
-		(property "Reference" "SW2"
-			(at 270.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 270.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c1f962c-1585-4b41-8527-aa35a3d638e0")
-		)
-		(pin "1"
-			(uuid "49f920c4-1846-4fa4-b1a7-013844f8b433")
-		)
-		(instances
-			(project "MainTotem_Rev1"
-				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RS485Transceiver:THVD1450D")
 		(at 171.45 132.08 0)
 		(unit 1)
@@ -7687,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D0008A_N"
+		(property "Footprint" "RS485Transceiver:D0008A_M"
 			(at 171.45 132.08 0)
 			(effects
 				(font
@@ -7730,9 +6873,6 @@
 		)
 		(pin "4"
 			(uuid "621f17c0-7530-4441-8edb-55c2b99949d4")
-		)
-		(pin "9"
-			(uuid "85104ba6-2949-4279-90c3-4e2663bd75a5")
 		)
 		(pin "7"
 			(uuid "aff31c6a-5daa-4add-bfb7-d48782621b22")
@@ -7778,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 224.79 127 0)
 			(effects
 				(font
@@ -7914,7 +7054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 141.732 30.48 90)
 			(effects
 				(font
@@ -7984,7 +7124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 217.932 130.81 90)
 			(effects
 				(font
@@ -8021,109 +7161,6 @@
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT54SW_115:BAT54SW_115")
-		(at 252.73 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe615602-6415-4128-8b22-c9577bdbd934")
-		(property "Reference" "D4"
-			(at 250.698 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT54SW_115"
-			(at 251.206 54.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BAT54SW_115:SOT65P210X110-3N"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca022cd-163b-42d9-8a50-29ecce051a54")
-		)
-		(pin "3"
-			(uuid "7e7d01e5-8ade-44f5-b182-7221d3a4194b")
-		)
-		(pin "2"
-			(uuid "181f894b-a868-4ee6-a6f9-9b357c0efed4")
-		)
-		(instances
-			(project "MainTotem_Rev1"
-				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/d37fd20f-9247-45e4-81ae-c21ac9bfd9eb"
-					(reference "D4")
 					(unit 1)
 				)
 			)

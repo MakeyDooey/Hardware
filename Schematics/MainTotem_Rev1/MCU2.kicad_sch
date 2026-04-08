@@ -8786,7 +8786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 263.652 44.45 90)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 271.272 62.23 90)
 			(effects
 				(font
@@ -9318,7 +9318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 274.0152 118.11 0)
 			(effects
 				(font
@@ -9388,7 +9388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 267.462 53.34 90)
 			(effects
 				(font
@@ -10049,7 +10049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.402 88.9 90)
 			(effects
 				(font
@@ -10119,7 +10119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 266.192 106.68 90)
 			(effects
 				(font
@@ -10189,7 +10189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254.762 119.38 90)
 			(effects
 				(font
@@ -10324,7 +10324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 265.43 52.07 0)
 			(effects
 				(font
@@ -10385,7 +10385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc8d66b-909f-4841-abd2-04ad97a87800")
-		(property "Reference" "SW3"
+		(property "Reference" "USER"
 			(at 278.13 82.55 0)
 			(effects
 				(font
@@ -10401,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 278.13 85.09 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/39b009e0-d9eb-493f-99f5-9b2cb61eab22"
-					(reference "SW3")
+					(reference "USER")
 					(unit 1)
 				)
 			)
@@ -10471,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 273.05 69.85 0)
 			(effects
 				(font
@@ -10549,7 +10549,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 269.24 60.96 0)
 			(effects
 				(font

@@ -2132,7 +2132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 243.5352 104.14 0)
 			(effects
 				(font
@@ -2202,7 +2202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 254.9652 104.14 0)
 			(effects
 				(font
@@ -2272,7 +2272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 76.2 0)
 			(effects
 				(font
@@ -2406,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT89-5_DIO"
+		(property "Footprint" "LDO_ShamanLink:SOT89-5_DIO-M"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -2487,7 +2487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.482 105.41 90)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.2652 132.08 0)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab0b5b3-4ac6-4da5-a1dd-5aca1802f9ec")
-		(property "Reference" "3V3SoC"
+		(property "Reference" "3V3SoC1"
 			(at 246.38 76.7079 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 248.92 81.28 0)
 			(effects
 				(font
@@ -2660,7 +2660,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/8cdda753-59d0-43d1-9f6c-24e675cc293c"
-					(reference "3V3SoC")
+					(reference "3V3SoC1")
 					(unit 1)
 				)
 			)
@@ -2760,7 +2760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 220.6752 106.68 0)
 			(effects
 				(font
@@ -2830,7 +2830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 214.122 90.17 90)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT89-5_DIO"
+		(property "Footprint" "LDO_ShamanLink:SOT89-5_DIO-M"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -3043,7 +3043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-5X3-8_DRL_TEX"
+		(property "Footprint" "TPS2117:SOT-5X3-8_DRL_TEX-M"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 232.1052 106.68 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.0652 137.16 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 75.8952 85.09 0)
 			(effects
 				(font
@@ -3343,7 +3343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 85.09 0)
 			(effects
 				(font
@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 171.45 103.378 90)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.4652 140.97 0)
 			(effects
 				(font
@@ -3814,7 +3814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 140.97 0)
 			(effects
 				(font
@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6250520-c7aa-4306-afd8-72848471f951")
-		(property "Reference" "3V3HPSoC"
+		(property "Reference" "3V3HPSoC1"
 			(at 142.24 67.6274 90)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.43 67.31 0)
 			(effects
 				(font
@@ -3929,7 +3929,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/8cdda753-59d0-43d1-9f6c-24e675cc293c"
-					(reference "3V3HPSoC")
+					(reference "3V3HPSoC1")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b819155d-7993-47ca-9d4e-5d67d9442112")
-		(property "Reference" "3V3HSSoC"
+		(property "Reference" "3V3HSSoC1"
 			(at 139.7 110.8074 90)
 			(effects
 				(font
@@ -3963,7 +3963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.89 110.49 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/8cdda753-59d0-43d1-9f6c-24e675cc293c"
-					(reference "3V3HSSoC")
+					(reference "3V3HSSoC1")
 					(unit 1)
 				)
 			)
@@ -4042,7 +4042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.652 59.69 90)
 			(effects
 				(font
@@ -4178,7 +4178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.4252 132.08 0)
 			(effects
 				(font
@@ -4362,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e332292b-5a7d-40e5-8de8-c0292909ead7")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 274.32 76.7079 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 276.86 81.28 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 		(instances
 			(project "MainTotem_Rev1"
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/8cdda753-59d0-43d1-9f6c-24e675cc293c"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -4447,7 +4447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.6952 76.2 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.112 102.87 90)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.6352 137.16 0)
 			(effects
 				(font

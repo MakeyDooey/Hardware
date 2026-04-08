@@ -833,16 +833,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 201.93 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf50e5e-8ba0-4820-bf0c-f20dc9933fe2")
-	)
-	(wire
-		(pts
 			(xy 102.87 78.74) (xy 105.41 78.74)
 		)
 		(stroke
@@ -913,6 +903,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 85.09) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2fbd4f-c80a-4e0f-9450-39991f114b2a")
+	)
+	(wire
+		(pts
 			(xy 186.69 71.12) (xy 186.69 72.39)
 		)
 		(stroke
@@ -950,6 +950,16 @@
 			(type default)
 		)
 		(uuid "b520d073-6f0d-4b7f-9081-e28a1777dae8")
+	)
+	(wire
+		(pts
+			(xy 201.93 72.39) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23ef3ce-fc5c-475d-acbc-d1027c093ac2")
 	)
 	(wire
 		(pts
@@ -1026,7 +1036,7 @@
 	)
 	(hierarchical_label "QUADSPI_BK1_CLK"
 		(shape bidirectional)
-		(at 201.93 86.36 90)
+		(at 201.93 72.39 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1076,7 +1086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 181.61 78.7399 0)
 			(effects
 				(font
@@ -1085,7 +1095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 178.7652 81.28 0)
 			(effects
 				(font
@@ -1284,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_208MIL_WIN"
+		(property "Footprint" "MemoryChipQSPI:SOIC_208MIL_WIN-M"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -1504,7 +1514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 80.518 90)
 			(effects
 				(font
@@ -1541,6 +1551,76 @@
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/39b009e0-d9eb-493f-99f5-9b2cb61eab22/2e64514f-165d-4acf-ba3a-af0efce37140"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea49ead8-933b-41f6-84f6-1b744ece3df0")
+		(property "Reference" "R57"
+			(at 204.47 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 204.47 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 200.152 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66ea809f-146e-4ccb-bd86-fc3aa96e7841")
+		)
+		(pin "1"
+			(uuid "b149d4ed-3360-4343-9fb9-6a5f732af15e")
+		)
+		(instances
+			(project ""
+				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/39b009e0-d9eb-493f-99f5-9b2cb61eab22/2e64514f-165d-4acf-ba3a-af0efce37140"
+					(reference "R57")
 					(unit 1)
 				)
 			)

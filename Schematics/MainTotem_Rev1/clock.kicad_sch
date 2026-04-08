@@ -967,7 +967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 126.6952 118.11 0)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 131.7752 63.5 0)
 			(effects
 				(font
@@ -1287,7 +1287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c8cd7f7-7f10-4153-8d71-90a69d203298")
-		(property "Reference" "MainClock"
+		(property "Reference" "MainClock1"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -1386,7 +1386,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/19d6abdf-8015-4fd4-afe9-8598d45d6109"
-					(reference "MainClock")
+					(reference "MainClock1")
 					(unit 1)
 				)
 			)
@@ -1552,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.4452 118.11 0)
 			(effects
 				(font
@@ -1622,7 +1622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 155.9052 63.5 0)
 			(effects
 				(font
@@ -1674,7 +1674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efad48ba-952d-45e0-8cf7-9037319dcd1f")
-		(property "Reference" "RTC"
+		(property "Reference" "RTC1"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -1767,7 +1767,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/19d6abdf-8015-4fd4-afe9-8598d45d6109"
-					(reference "RTC")
+					(reference "RTC1")
 					(unit 1)
 				)
 			)
