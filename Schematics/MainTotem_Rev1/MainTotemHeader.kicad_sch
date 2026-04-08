@@ -2509,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20df7edb-184e-4db5-8fb2-5fcbcbfdb230")
-		(property "Reference" "H7_UART/SWD"
+		(property "Reference" "H7_UART/SWD1"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/1663cdcb-fd8a-4b7c-9fc6-67a30a6bff25"
-					(reference "H7_UART/SWD")
+					(reference "H7_UART/SWD1")
 					(unit 1)
 				)
 			)

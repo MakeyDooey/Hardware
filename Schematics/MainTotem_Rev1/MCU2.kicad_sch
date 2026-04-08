@@ -10385,7 +10385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc8d66b-909f-4841-abd2-04ad97a87800")
-		(property "Reference" "USER"
+		(property "Reference" "USER1"
 			(at 278.13 82.55 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 		(instances
 			(project ""
 				(path "/f88ba0f4-041f-4cf3-b904-3ea5c6101abb/39b009e0-d9eb-493f-99f5-9b2cb61eab22"
-					(reference "USER")
+					(reference "USER1")
 					(unit 1)
 				)
 			)

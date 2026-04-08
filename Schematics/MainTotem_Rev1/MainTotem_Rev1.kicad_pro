@@ -63,7 +63,36 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|94214999|80705000|f2cae1db-fb61-434a-9ed5-b6bebed536a3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|127853211|85566302|cfb9580e-2e63-4344-b51d-26fc93363fe5|6e47cc69-7ef6-4c28-a7e4-d0cc7d160045|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|151090508|99183241|cfb9580e-2e63-4344-b51d-26fc93363fe5|70ec06ec-ed41-4b2b-bf0c-7fde26bf6696|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|157273987|94378620|cfb9580e-2e63-4344-b51d-26fc93363fe5|2c5d1d73-bf16-449b-8d85-8093dff732b3|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|157362376|92911373|cfb9580e-2e63-4344-b51d-26fc93363fe5|7b52e6bd-f1cf-48ca-8e54-4668bb847062|F.Cu",
+          ""
+        ],
+        [
+          "via_dangling|106150000|108850000|74a494c7-e60d-4ec5-ba31-013ac4e70b7b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|106831980|109118020|2f8837f8-3ad6-4ddd-ba0c-2c8406dc8b4b|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -141,7 +170,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.7,
         "solder_mask_to_copper_clearance": 0.0,
