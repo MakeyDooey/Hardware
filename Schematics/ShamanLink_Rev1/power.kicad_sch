@@ -1274,6 +1274,16 @@
 		)
 		(uuid "6c4bc4ab-17af-4b4a-90fb-43a1b7055426")
 	)
+	(text "In this configuration, you have the 3V3 as the priority supply."
+		(exclude_from_sim no)
+		(at 229.108 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bab46391-43c2-46f3-9a5a-c39b38fa0eab")
+	)
 	(junction
 		(at 180.34 124.46)
 		(diameter 0)

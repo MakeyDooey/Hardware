@@ -2829,6 +2829,16 @@
 		)
 		(uuid "84ea4192-a0aa-471a-bdfd-32618ccfb5c8")
 	)
+	(text "In next version, this jumper needs to be mirrored, currently it is backwards in reference\nto the TagConnect cable header"
+		(exclude_from_sim no)
+		(at 188.976 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8bb4118-bb37-40ca-9c0e-ad5c750c59ac")
+	)
 	(junction
 		(at 193.04 52.07)
 		(diameter 0)

@@ -563,6 +563,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This 3V3 CANNOT be the TagConnect connection. \nIt is too high resistance to handle any power supply, you can use the \nTagconnect for the signals, but you will need a jumper for the \npower and gnd connections. "
+		(exclude_from_sim no)
+		(at 178.562 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e04c567-76d0-4fb3-8500-96e45b044f14")
+	)
 	(text "No need to implement these pull up and pull down\nresistors on the target board since they are already implemented \nhere. "
 		(exclude_from_sim no)
 		(at 189.992 121.666 0)

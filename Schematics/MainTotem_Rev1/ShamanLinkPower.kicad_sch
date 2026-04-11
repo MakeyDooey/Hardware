@@ -944,16 +944,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 59.69) (xy 228.6 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0658d026-f2ab-49ed-b542-32b3b99f2b79")
-	)
-	(wire
-		(pts
 			(xy 144.78 133.35) (xy 144.78 105.41)
 		)
 		(stroke
@@ -961,6 +951,16 @@
 			(type default)
 		)
 		(uuid "1171bade-4691-4bfd-b6b6-f656b471f25b")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c9231f-ffba-42fa-b381-b0c3fda6bd76")
 	)
 	(wire
 		(pts
@@ -991,16 +991,6 @@
 			(type default)
 		)
 		(uuid "28742990-54b2-4e6a-8e14-75f5c5247e9d")
-	)
-	(wire
-		(pts
-			(xy 133.35 59.69) (xy 228.6 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2045ff-68a4-46dc-a0bc-7131c72d95fc")
 	)
 	(wire
 		(pts
@@ -1041,6 +1031,16 @@
 			(type default)
 		)
 		(uuid "48d13da4-87fd-4d64-a2b9-7e19363e6e4a")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55deb852-233d-4018-bc2f-85be4dd4fda1")
 	)
 	(wire
 		(pts
@@ -1124,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 58.42) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee407fc-7f86-444b-96ff-47b9d80bb2e0")
+	)
+	(wire
+		(pts
 			(xy 248.92 100.33) (xy 237.49 100.33)
 		)
 		(stroke
@@ -1174,16 +1184,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 144.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44b543d-4a42-4e1d-a8d7-f038010d1233")
-	)
-	(wire
-		(pts
 			(xy 154.94 85.09) (xy 238.76 85.09)
 		)
 		(stroke
@@ -1194,7 +1194,7 @@
 	)
 	(global_label "3V3PROGRAMMER"
 		(shape bidirectional)
-		(at 130.81 102.87 180)
+		(at 129.54 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1204,7 +1204,7 @@
 		)
 		(uuid "b6402a60-3eca-4fe8-8c06-4ff9a2e1fec9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.385 102.87 0)
+			(at 109.115 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 	)
 	(global_label "3V3MODULES"
 		(shape bidirectional)
-		(at 133.35 59.69 180)
+		(at 107.95 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1226,7 +1226,7 @@
 		)
 		(uuid "c147770c-74af-4c57-8767-206b9c19b996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9769 59.69 0)
+			(at 91.5769 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

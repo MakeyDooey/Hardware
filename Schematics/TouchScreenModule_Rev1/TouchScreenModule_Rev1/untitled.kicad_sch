@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fc685588-d513-40fd-8260-e545abdc8ce6")
+	(paper "A4")
+	(lib_symbols)
+	(text "Input 12V to 5V"
+		(exclude_from_sim no)
+		(at 122.174 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3feb379-85b7-4d0b-a68e-6d18af686107")
+	)
+)

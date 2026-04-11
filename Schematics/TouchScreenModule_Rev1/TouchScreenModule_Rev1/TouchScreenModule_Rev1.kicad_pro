@@ -65,31 +65,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|94214999|80705000|f2cae1db-fb61-434a-9ed5-b6bebed536a3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|127853211|85566302|cfb9580e-2e63-4344-b51d-26fc93363fe5|6e47cc69-7ef6-4c28-a7e4-d0cc7d160045|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|151090508|99183241|cfb9580e-2e63-4344-b51d-26fc93363fe5|70ec06ec-ed41-4b2b-bf0c-7fde26bf6696|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|157273987|94378620|cfb9580e-2e63-4344-b51d-26fc93363fe5|2c5d1d73-bf16-449b-8d85-8093dff732b3|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|157362376|92911373|cfb9580e-2e63-4344-b51d-26fc93363fe5|7b52e6bd-f1cf-48ca-8e54-4668bb847062|F.Cu",
-          ""
-        ],
-        [
-          "via_dangling|106150000|108850000|74a494c7-e60d-4ec5-ba31-013ac4e70b7b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "via_dangling|106831980|109118020|2f8837f8-3ad6-4ddd-ba0c-2c8406dc8b4b|00000000-0000-0000-0000-000000000000",
+          "starved_thermal|183569859|71041035|b055024b-6412-4649-8409-58cd32e4e1c5|bb29ac7f-24d2-4519-9ac6-2a60a7d2165b|B.Cu",
           ""
         ]
       ],
@@ -521,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MainTotem_Rev1.kicad_pro",
+    "filename": "TouchScreenModule_Rev1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -557,10 +533,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Gerber/MainTotemLiteGerber/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Users/dommu/Downloads/MainTotem_Rev1.step",
+      "step": "../../../../../Users/dommu/Downloads/TouchScreenModule_Rev1.step",
       "svg": "",
       "vrml": ""
     },
@@ -681,48 +657,16 @@
   },
   "sheets": [
     [
-      "f88ba0f4-041f-4cf3-b904-3ea5c6101abb",
+      "6890df50-3bef-48d1-a724-05d8e537ad33",
       "Root"
     ],
     [
-      "39b009e0-d9eb-493f-99f5-9b2cb61eab22",
-      "MCU2"
-    ],
-    [
-      "0ea3fa29-2107-4458-94e7-0700556d8b64",
-      "PowerMCU"
-    ],
-    [
-      "8cdda753-59d0-43d1-9f6c-24e675cc293c",
+      "db27ffc6-83e9-4ec4-8a17-91bce8f27018",
       "Power"
     ],
     [
-      "1663cdcb-fd8a-4b7c-9fc6-67a30a6bff25",
-      "MainTotemHeader"
-    ],
-    [
-      "d37fd20f-9247-45e4-81ae-c21ac9bfd9eb",
-      "RS485"
-    ],
-    [
-      "19d6abdf-8015-4fd4-afe9-8598d45d6109",
-      "Clock"
-    ],
-    [
-      "2e64514f-165d-4acf-ba3a-af0efce37140",
-      "QSPIMEM"
-    ],
-    [
-      "97057afa-7296-4be8-a665-e60332ed6693",
-      "ShamanLinkPower"
-    ],
-    [
-      "7514e2bf-e8c9-419c-a9b1-da8f08cf279a",
-      "100P_CONN"
-    ],
-    [
-      "11b1d03f-480a-48c0-b3f5-bb8abd3eef6d",
-      "40P_CONN"
+      "2d437a07-61fd-49a6-bbe1-420fabe39a39",
+      "Motors"
     ]
   ],
   "text_variables": {}
