@@ -560,7 +560,7 @@
       "plot": "../../Gerber/MainTotemLiteGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Users/dommu/Downloads/MainTotem_Rev1.step",
+      "step": "../../CAD/MainTotem_Rev1.step",
       "svg": "",
       "vrml": ""
     },

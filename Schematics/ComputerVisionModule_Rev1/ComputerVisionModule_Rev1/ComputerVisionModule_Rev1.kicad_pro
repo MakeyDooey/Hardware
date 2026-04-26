@@ -528,10 +528,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Gerber/ComputerVisionModuleGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../CAD/ComputerVisionModule_Rev1.step",
       "svg": "",
       "vrml": ""
     },

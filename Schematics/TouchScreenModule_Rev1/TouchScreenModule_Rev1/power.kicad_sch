@@ -1352,6 +1352,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "For these caps you didnt have 22uF 0805 caps,\nso you stacked two 10uF caps on top each other. "
+		(exclude_from_sim no)
+		(at 93.726 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a03cd79-763d-43ba-8128-47f03349b7ad")
+	)
+	(text "A 51kohm R used here irl"
+		(exclude_from_sim no)
+		(at 118.618 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc07d59c-a25d-4968-afd1-95747f4fd961")
+	)
 	(junction
 		(at 135.89 86.36)
 		(diameter 0)

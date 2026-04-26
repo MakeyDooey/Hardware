@@ -713,7 +713,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec5777d8-6e40-45b0-88be-e3518a68ede2")
+			(uuid "ec5777d8-6e40-45b0-88be-e3518a68ede3")
 		)
 		(instances
 			(project ""
@@ -845,7 +845,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "baa958f6-90f1-48ad-b497-b8a60f7515d5")
+			(uuid "baa958f6-90f1-48ad-b497-b8a60f7515d6")
 		)
 		(instances
 			(project ""

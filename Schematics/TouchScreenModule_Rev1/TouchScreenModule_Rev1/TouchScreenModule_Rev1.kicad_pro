@@ -533,10 +533,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Gerber/ScreenModuleGerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Users/dommu/Downloads/TouchScreenModule_Rev1.step",
+      "step": "../../../CAD/TouchScreenModule_Rev1.step",
       "svg": "",
       "vrml": ""
     },
